@@ -5,7 +5,7 @@ import (
 	"net/http"
 )
 
-// Circleci Test1 test2 with gitflow
+// Circleci Test1 test2 with gitflow, bugfix with gitflow
 func HelloWorld(res http.ResponseWriter, req *http.Request) {
 	fmt.Fprint(res, "Hello World")
 }
